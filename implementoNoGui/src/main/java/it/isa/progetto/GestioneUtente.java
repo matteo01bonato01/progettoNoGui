@@ -54,7 +54,7 @@ public class GestioneUtente {
 	
 	//private static JFrame fListaEventi, framePrenotami, frModifica;
 	//private static JPanel jpListaEventi, pannelloPrenotami, panModifica;
-	static String url = "jdbc:db2://172.17.0.3:50000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
+	static String url = "jdbc:db2://172.20.0.3:50000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
 	static Connection con;
 	static Statement stmt;
 	static JTextField nome_evento_prenotato, nome_evento_prenotabile;
