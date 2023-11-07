@@ -54,7 +54,7 @@ public class GestioneArtista {
 
 	//private static JFrame fListaEventi, frameMieiEventi, frModifica;
 	//private static JPanel jpListaEventi, pannelloMieiEventi, panModifica;
-	static String url = "jdbc:db2://172.20.0.3:50000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
+	static String url = "jdbc:db2://172.20.0.3:55000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
 	static Connection con;
 	static Statement stmt;
 	static JTextField nome_evento_prenotato, nome_evento_prenotabile;

@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Drop {
-	static String url = "jdbc:db2://172.20.0.3:50000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
+	static String url = "jdbc:db2://172.20.0.3:55000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
 	static Connection con;
 	static Statement stmt;
 	
