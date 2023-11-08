@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
  */
 @TestInstance(Lifecycle.PER_CLASS)
 public class AppTest {
-	static String url = "jdbc:db2://172.20.0.3:55000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
+	static String url = "jdbc:db2://172.17.0.2:50000/SAMPLE:retrieveMessagesFromServerOnGetMessage=true;";
 	static Connection con;
 	static Statement stmt, stmtcheck;	
 
