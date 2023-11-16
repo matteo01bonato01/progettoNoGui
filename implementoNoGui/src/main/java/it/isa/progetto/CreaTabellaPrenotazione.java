@@ -41,25 +41,42 @@ public class CreaTabellaPrenotazione {
 		
 		/********** POPOLO PRENOTAZIONE ************/
 		try {			
-			
+
 			stmt.executeUpdate("insert into PRENOTAZIONE(LOGIN_UR, ID_EVENTO) " + 
 			     "values('matte78', '2');");
 
+	    	stmt.execute("update EVENTO set DISPONIBILITA = DISPONIBILITA - 1 where ID=2;");
+	    	
+	    	
 			stmt.executeUpdate("insert into PRENOTAZIONE(LOGIN_UR, ID_EVENTO) " + 
 				     "values('matte78', '1');");
-			
+
+	    	stmt.execute("update EVENTO set DISPONIBILITA = DISPONIBILITA - 1 where ID=1;");
+	    	
+	    	
 			stmt.executeUpdate("insert into PRENOTAZIONE(LOGIN_UR, ID_EVENTO) " + 
 				     "values('vice11', '3');");
 			
+	    	stmt.execute("update EVENTO set DISPONIBILITA = DISPONIBILITA - 1 where ID=3;");
+	    	
+	    	
 			stmt.executeUpdate("insert into PRENOTAZIONE(LOGIN_UR, ID_EVENTO) " + 
 				     "values('marco78', '4');");
-			
+
+	    	stmt.execute("update EVENTO set DISPONIBILITA = DISPONIBILITA - 1 where ID=4;");
+	    	
+	    	
 			stmt.executeUpdate("insert into PRENOTAZIONE(LOGIN_UR, ID_EVENTO) " + 
 				     "values('giova55', '3');");
-			
+
+	    	stmt.execute("update EVENTO set DISPONIBILITA = DISPONIBILITA - 1 where ID=3;");
+	    	
+	    	
 			stmt.executeUpdate("insert into PRENOTAZIONE(LOGIN_UR, ID_EVENTO) " + 
 				     "values('giova55', '7');");
-			
+
+	    	stmt.execute("update EVENTO set DISPONIBILITA = DISPONIBILITA - 1 where ID=7;");
+	    	
 		} catch(SQLException ex) {
 			System.err.println("ERRORE sugli INSERT into PRENOTAZIONE: "+ex.getMessage());
 		}
